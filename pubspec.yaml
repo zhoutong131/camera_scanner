@@ -1,6 +1,6 @@
 name: camera_scanner
 description: "windows调起相机扫码"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/zhoutong131/camera_scanner.git
 repository: https://github.com/zhoutong131/camera_scanner.git
 
@@ -13,6 +13,7 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
   camera_platform_interface: ^2.6.0
+  stream_transform: ^2.1.1
 
 dev_dependencies:
   flutter_test:
